@@ -113,7 +113,7 @@ body {
 .form-group input:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.18);
 }
 
 .btn {
@@ -143,7 +143,7 @@ body {
 .result-section {
     margin-top: var(--spacing-xl);
     padding: var(--spacing-xl);
-    background: linear-gradient(135deg, #e8f5e8, #f1f8e9);
+    background: #fff7ed;
     border-left: 4px solid var(--success-color);
     border-radius: var(--border-radius);
     animation: slideIn 0.3s ease;
