@@ -142,10 +142,10 @@ body {
 .result-value {
     font-size: 1.5em;
     font-weight: bold;
-    color: var(--text-primary);
+    color: #000 !important;
     margin: var(--spacing-md) 0;
     padding: var(--spacing-md);
-    background: white;
+    background: #fff !important;
     border-radius: var(--border-radius);
     text-align: center;
     box-shadow: var(--box-shadow);

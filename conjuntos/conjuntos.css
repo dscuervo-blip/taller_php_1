@@ -160,7 +160,8 @@ body {
 }
 
 .result-list {
-    background: white;
+    background: #fff !important;
+    color: #000 !important;
     padding: var(--spacing-lg);
     border-radius: var(--border-radius);
     margin: var(--spacing-md) 0;

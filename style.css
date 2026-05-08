@@ -339,20 +339,26 @@ small {
     gap: var(--spacing-sm);
 }
 
+.result-section > p {
+    /* Evita texto blanco cuando el ejercicio redefine el color del `body`. */
+    color: #000 !important;
+}
+
 .result-value {
     font-size: 1.5em;
     font-weight: bold;
-    color: var(--text-primary);
+    color: #000 !important;
     margin: var(--spacing-md) 0;
     padding: var(--spacing-md);
-    background: white;
+    background: #fff !important;
     border-radius: var(--border-radius);
     text-align: center;
     box-shadow: var(--box-shadow);
 }
 
 .result-list {
-    background: white;
+    background: #fff !important;
+    color: #000 !important;
     padding: var(--spacing-lg);
     border-radius: var(--border-radius);
     margin: var(--spacing-md) 0;
